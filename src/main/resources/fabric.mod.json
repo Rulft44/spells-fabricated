@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "spellsfabricated",
+	"version": "${version}",
+	"name": "Spells Fabricated",
+	"description": "Simple yet fun spells for a vanilla+ experience.",
+	"authors": [
+		"Rulft44"
+	],
+	"contact": {
+		"homepage": "https://rulft.carrd.co/",
+		"sources": "https://github.com/Rulft44/spells-fabricated"
+	},
+	"license": "MIT",
+	"icon": "assets/spellsfabricated/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rulft.spellsfabricated.SpellsFabricated"
+		],
+		"client": [
+			"net.rulft.spellsfabricated.SpellsFabricatedClient"
+		],
+		"fabric-datagen": [
+			"net.rulft.spellsfabricated.SpellsFabricatedDataGenerator"
+		]
+	},
+	"mixins": [
+		"spellsfabricated.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.4",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
