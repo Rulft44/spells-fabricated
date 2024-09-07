@@ -1,5 +1,12 @@
 {
-  "item.spellsfabricated.example": "Example",
+  "item.spellsfabricated.example": "Example Item",
+
+  "item.spellsfabricated.fire_spell_book": "§6Fire Spell Book",
+  "item.spellsfabricated.lightning_spell_book": "Lightning Spell Book",
+  "item.spellsfabricated.ice_spell_book": "Ice Spell Book",
+
+  "spell.spellsfabricated.fire_ball.name": "Fire Ball",
+  "spell.spellsfabricated.fire_ball.description": "Shoots a fire ball that does {damage} §6Fire§r damage",
 
   "itemgroup.spellsfabricated": "Spells Fabricated"
 }
